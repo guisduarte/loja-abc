@@ -1,0 +1,60 @@
+.modal {
+  background: #fafafa;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  width: min(37rem, 80%);  
+}
+
+.modal h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  color: #0d114f;
+}
+
+.modal p {
+  margin-bottom: 1.5rem;
+  color: #4d5e77;
+}
+
+.modal button {
+  cursor: pointer;
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, .7);
+}
+
+.btn {
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  background: #3485ff;
+  color: #fafafa;
+  transition: filter 0.2s;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.btn.close {
+  display: flex;
+  align-items: center;
+  clip-path: circle();
+  position: absolute;
+  top: 2rem;  
+  right: 2rem;
+  height: 1rem;
+  aspect-ratio: 1/1;
+}
+
+.modal h3 {
+  font-size: 2.5rem;
+}
+
+.modal ul {
+  list-style: none;
+  font-size: 2rem;
+}
+
